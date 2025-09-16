@@ -1,32 +1,107 @@
-body {
-    font-family: Roboto;
+:root {
+  --text-color: #2e2f42;
+  --text-color-hover: #404bbf;
 }
+
+body {
+  width: 1440px;
+  font-family: Roboto;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* ------------------------------------------- */
 
 .header {
- background-color: #E7E9FC;
+  margin: 0;
+  background-color: #fff;
 }
 
-.header-logo {
- color: #2E2F42;
- font-family: Raleway;
- font-weight: 800;
- font-style: ExtraBold;
- font-size: 18px;
- line-height: 0.85;
- letter-spacing: 3%;
- vertical-align: middle;
- text-transform: uppercase;
- text-decoration: none;
+.logo {
+  color: var(--text-color);
+  font-family: Raleway;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 18px;
+  line-height: 0.85;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 60px;
 }
 
-.header-logo-web {
-  color: #4D5AE5;
+.logo-web {
+  color: #4d5ae5;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-list {
+  gap: 40px;
+  display: flex;
+  margin-right: 500px;
+}
+
+.address-list {
+  gap: 40px;
+  display: flex;
+}
+
+.address-item-link {
+  color: var(--text-color);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 2%;
+}
+
+.address-item-link:hover,
+.nav-item-link:hover {
+  color: var(--text-color-hover);
+}
+
+.nav-item-link {
+  color: #434455;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 2%;
+}
+
+/* ---------------------------------------------- */
 
 .hero {
-    background-color: #2E2F42;
+  height: 600px;
+  margin: 0;
+  background-color: var(--text-color);
 }
 
 .hero-text {
-    color: white;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+  margin-top: 0;
+  color: white;
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 56px;
+  leading-trim: NONE;
+  line-height: 60px;
+  letter-spacing: 2%;
+  text-align: center;
 }
