@@ -88,20 +88,72 @@ li {
   height: 600px;
   margin: 0;
   background-color: var(--text-color);
+  text-align: center;
 }
 
 .hero-text {
   padding-top: 188px;
-  padding-bottom: 188px;
   text-align: center;
   margin-top: 0;
   color: white;
-  font-family: Roboto;
   font-weight: 700;
   font-style: Bold;
   font-size: 56px;
-  leading-trim: NONE;
   line-height: 60px;
   letter-spacing: 2%;
   text-align: center;
+}
+
+.hero-button {
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  letter-spacing: 4%;
+  vertical-align: middle;
+  background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* -------------------------------------- */
+
+.strategy {
+  align-items: center;
+  width: 1228px;
+ margin: 0 auto;
+}
+
+.strategy-list {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.strategy-list-item {
+  max-width: 264px;
+  max-height: 104px;
+  margin-right: 30px;
+}
+
+.strategy-item-h {
+  color: var(--text-color);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 0.83;
+  letter-spacing: 2%;
+  margin-bottom: 8px;
+}
+
+.strategy-item-p {
+  color: var(--text-color);
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  margin-top: 0;
 }
